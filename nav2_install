@@ -1,0 +1,3 @@
+sudo apt install ros-foxy-laser-geometry ros-foxy-map-msgs ros-foxy-image-transport ros-foxy-rviz-common ros-foxy-angles
+
+rosdep install -y -r -q --from-paths src --ignore-src --rosdistro foxy -y
